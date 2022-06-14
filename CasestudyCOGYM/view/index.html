@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/display.css">
+</head>
+<body onload="checkAdmin()">
+<div id="container">
+    <div id="heater">
+        <div id="logo"><img src="../image/tgdd-logo.jpg" alt="Lỗi" width="302px" height="150px"></div>
+        <div id="header"></div>
+    </div>
+    <div id="menu">
+
+        <ul>
+            <li>
+                <button onclick="introduceTGDD()">GIỚI THIỆU</button>
+            </li>
+            <li>
+                <button onclick="showPhone()"> Sản phẩm</button>
+            </li>
+            <li>
+                <button>Điện thoại</button>
+                <ul class="motor">
+                    <li>
+                        <button onclick="showOppo()">OPPO</button>
+                    </li>
+                    <li>
+                        <button onclick="showIphone()">SAMSUNG</button>
+                    </li>
+                    <li>
+                        <button onclick="showSamsung()">IPHONE</button>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <button>TIN TỨC</button>
+            </li>
+            <li>
+                <button>PHẢN HỒI</button>
+            </li>
+            <li>
+                <button onclick="renderEdit('Tạo mới')">TẠO MỚI</button>
+            </li>
+        </ul>
+    </div>
+    <div id="display">
+        <div id="poster"><img src="../image/poster-1.jpg" alt="Lỗi" width="100%" height="100%"></div>
+        <div id="displayElement"><img src="../image/main.png" alt="Lỗi" width="100%" height="100%"></div>
+    </div>
+    <div id="footer">
+        <p></p>
+        <p>Copyright &copy; by The Gioi Di Dong</p>
+        <p>Điện thoại: 02838125960 &emsp;</p>
+        <p>Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh</p>
+    </div>
+</body>
+<script src="../js/index/display.js"></script>
+<script src="../js/index/delete.js"></script>
+<script src="../js/index/edit.js"></script>
+<script src="../js/model/product.js"></script>
+</html>
